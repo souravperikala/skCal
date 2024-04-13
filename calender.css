@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .calendar table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar th,
+  .calendar td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .calendar th {
+    background-color: #f2f2f2;
+  }
+  
+  .calendar td:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .current-day {
+    background-color: #e0e0e0;
+  }
+  
+  .today {
+    background-color: #ffc107;
+  }
+  
+  .navigation {
+    margin-bottom: 20px;
+  }
+  
+  .navigation select {
+    font-size: 16px;
+  }
+
+  .navSelector{
+    display: flex;
+    justify-content: center;
+  }
+
+  .leftBtn {
+    float: inline-start;
+  }
+
+  .rightBtn {
+    float: inline-end;
+  }
